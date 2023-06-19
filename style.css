@@ -1,0 +1,80 @@
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    flex: 1;
+    margin-left: 150px;
+}
+
+.links {
+    flex: 2;
+}
+
+.links > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+}
+
+.links > ul > li {
+    margin-right: 15px;
+}
+
+.links > ul > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner > .h_text {
+    flex: 1;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.banner > .h_image {
+    flex: 1;
+    margin-right: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.banner > .h_image > img {
+    width: 425px;
+    height: 212px;
+}
+
+.banner > .h_text > .h_title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.banner > .h_text > p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.banner > .h_text > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.rounded-button {
+    border-radius: 20px;
+  }
