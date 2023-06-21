@@ -12,7 +12,7 @@
 .logo {
     font-size: 24px;
     flex: 1;
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 .links {
@@ -23,7 +23,7 @@
     list-style-type: none;
     display: flex;
     justify-content: end;
-    margin-right: 150px;
+    margin-right: 250px;
 }
 
 .links > ul > li {
@@ -42,19 +42,20 @@
 
 .banner > .h_text {
     flex: 1;
-    margin-left: 150px;
-    margin-top: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .banner > .h_image {
     flex: 1;
-    margin-right: 150px;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 65px;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .banner > .h_image > img {
-    width: 425px;
+    width: 600px;
     height: 212px;
 }
 
@@ -76,5 +77,124 @@
 }
 
 .rounded-button {
-    border-radius: 20px;
-  }
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+}
+
+.main {
+    background-color: white;
+}
+
+.main > .info_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main > .info_cards {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+    
+}
+
+.main > .info_cards > .info_image {
+    display: flex;
+    flex-direction: column;
+}
+
+.main > .info_cards > .info_image > .empty_box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #3882f6;
+    background-color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote > .text {
+    padding-bottom: 150px;
+}
+
+.quote > .text > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 150px;
+    margin-bottom: 5px;
+}
+
+.quote > .text > .signature {
+    font-size: 25px;
+    padding-left: 1200px;
+    font-weight: bold;
+}
+
+.call_action {
+    background-color: white;
+}
+
+.call_action > .blue_box {
+    background-color: #3882f6;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.call_action > .blue_box > .text {
+    margin-right: 50px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.call_action > .blue_box > .text > .action_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call_action > .blue_box > .action_button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.call_action > .blue_box > .action_button > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
